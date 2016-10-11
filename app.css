@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Bevan';
+@import 'https://fonts.googleapis.com/css?family=Lilita+One';
+* {
+  font-family: 'Bevan';
+  text-align: center;
+  list-style: none inside;
+}
+
+body{
+  background-color: #42a5f5;
+}
+
+ul{
+  display:block;
+  padding-left: 0;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+input.hide {
+  display: none;
+}
+
+button {
+  font-family: 'Lilita One';
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+input.submit {
+  font-family: 'Lilita One';
+}
+
+button.show {
+  font-family: 'Lilita One';
+}
+
+input.bar {
+  font-family: 'Lilita One';
+}
+
+.container {
+  background-color: white;
+  width: 320px;
+  margin: 30px auto;
+  padding: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.box {
+  height: 43px;
+  margin: 10px;
+  background-color: #8ca;
+  padding-left:0;
+  border: 1px solid rgba(225, 0, 0, 0.1);
+  font-size:24px;
+}
